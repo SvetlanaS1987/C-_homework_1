@@ -16,7 +16,7 @@ if (numberA > max) max = numberA;
 if (numberB > max) max = numberB;
 
 Console.Write("max = ");
-Console.WriteLine(max); */
+Console.WriteLine(max);  */
 
 /* Задача 4: Напишите программу, которая принимает на
 вход три числа и выдаёт максимальное из этих чисел.
