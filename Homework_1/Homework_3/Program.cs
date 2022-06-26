@@ -18,9 +18,9 @@ else Console.WriteLine("Число не является палиндром"); *
 вход координаты двух точек и находит расстояние между
 ними в 3D пространстве.
 A (3,6,8); B (2,1,-7), -> 15.84
-A (7,-5, 0); B (1,-1,9) -> 11.53 */
+A (7,-5, 0); B (1,-1,9) -> 11.53
 
-/* Console.WriteLine("Введите X1");
+Console.WriteLine("Введите X1");
 int X1 = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите Y1");
@@ -41,15 +41,14 @@ int Z2 = int.Parse(Console.ReadLine());
 double result = Math.Sqrt(Math.Pow(X1-X2,2) + Math.Pow(Y1-Y2,2) + Math.Pow(Z1-Z2,2));
 Console.WriteLine(Math.Round(result,2)); */
 
-
 /* Задача 23: Напишите программу, которая принимает на
 вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
 3 -> 1, 4, 9.
 5 -> 1, 8, 27, 64, 125
 3 -> 1, 8, 27
-5 -> 1, 8, 27, 64, 125 */
+5 -> 1, 8, 27, 64, 125
 
-/* Console.WriteLine("Введите целое положительное число:");
+Console.WriteLine("Введите целое положительное число:");
 int N = int.Parse(Console.ReadLine());
 int i = 1;
 while (i <= N)
