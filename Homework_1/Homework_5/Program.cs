@@ -78,32 +78,29 @@ Console.WriteLine($"Сумма элементов массива, стоящих
 элементов массива.
 [3 7 22 2 78] -> 76 */
 
-void PrintArray(double [] col)
-{
-    for (double i = 0; i < col.Length; i++)
+/* double[] arrayRealNumbers = new double[10];
+  for (int i = 0; i < arrayRealNumbers.Length; i++ )
+  {
+    arrayRealNumbers[i] = new Random().Next(1, 10);
+    Console.Write(arrayRealNumbers[i] + " ");
+  }
+
+double maxNumber = arrayRealNumbers[0];
+double minNumber = arrayRealNumbers[0];
+
+  for (int i = 1; i < arrayRealNumbers.Length; i++)
+  {
+    if (maxNumber < arrayRealNumbers[i])
     {
-        Console.Write(col[i] + " ");
+      maxNumber = arrayRealNumbers[i];
     }
-    Console.WriteLine();
-}
-
-double[] arr = new double[5];
-for (double i = 0; i < arr.Length; i++)
-
-{
-    arr[i] = Math.Round(new Random().NextDouble());
-}
-
-PrintArray(arr);
-
-double FindExtremDiff(double[] collection);
-{
-    for (double i = 0; i < collection.Length; i++)
+        if (minNumber > arrayRealNumbers[i])
     {
-        FindExtremDiff += collection[i];
+      minNumber = arrayRealNumbers[i];
     }
-    return FindExtremDiff;
-}
+  }
 
-FindExtremDiff(arr);
-Console.WriteLine($"Сумма элементов массива, стоящих на нечётных позициях.: {FindExtremDiff}");
+  double decision = maxNumber - minNumber;
+
+  Console.WriteLine($"Разница между между максимальным ({maxNumber}) и минимальным({minNumber}) элементами: {decision}"); */
+ 

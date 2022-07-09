@@ -52,7 +52,7 @@ void WriteArray(double[,] array)
 // 8 4 2 4
 // 17 -> такого числа в массиве нет
 
-Console.Write("Введите m: ");
+/* Console.Write("Введите m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите n: ");
 int n = Convert.ToInt32(Console.ReadLine());
